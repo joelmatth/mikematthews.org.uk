@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Old Sans Black';
-  src: url('OldSansBlack.eot?#iefix') format('embedded-opentype'), 
-  url('OldSansBlack.woff') format('woff'), 
-  url('OldSansBlack.ttf') format('truetype'),
-  url('OldSansBlack.svg#oldsansblack') format('svg');
+    font-family: 'Old Sans Black';
+    src: url('font/OldSansBlack.eot?#iefix') format('embedded-opentype'), 
+    url('font/OldSansBlack.woff') format('woff'), 
+    url('font/OldSansBlack.ttf') format('truetype'),
+    url('font/OldSansBlack.svg#oldsansblack') format('svg');
 }
 
 body {
@@ -13,13 +13,13 @@ body {
 	font-size: 63%;
 	font-weight: normal;
 	color: #2E2E2E;
-	background-image: url("bg.jpg");
+	background-image: url("img/bg.jpg");
 	background-repeat: repeat;
-	}
+}
 	
 a {
 	color: #0D0D0D;
-	}
+}
 	
 #header {
 	font-family: 'Old Sans Black', Helvetica, sans-serif;
@@ -28,12 +28,12 @@ a {
 	border-color: #18191B;
 	color: #18191B;
 	margin-bottom: 40px;
-	}
+}
 	
 #header a {
 	color: #18191B;
 	text-decoration: none;
-	}
+}
 	
 h1 {
 	display: inline;
@@ -41,7 +41,7 @@ h1 {
 	font-weight: normal;
 	zoom: 1;
 	*display:inline;
-	}
+}
 	
 ul#links {
 	display: inline-block;
@@ -49,7 +49,7 @@ ul#links {
 	padding: 0;
 	width: 360px;
 	margin: 0 32px 0 20px;
-	}
+}
 	
 ul#links li {
 	display: inline-block;
@@ -58,7 +58,7 @@ ul#links li {
 	width: 100px;
 	zoom: 1;
 	*display:inline;
-	}
+}
 	
 img.profile {
 	display: inline;
@@ -67,11 +67,11 @@ img.profile {
 	vertical-align: bottom;
 	zoom: 1;
 	*display:inline;
-	}
+}
 
 #content {
 	font-size: 1.8em;
-	}
+}
 	
 ul.recent_examples {
 	padding: 0;
@@ -80,33 +80,33 @@ ul.recent_examples {
 	margin: 0 0 20px 0;
 	zoom: 1;
 	*display:inline;
-	}
+}
 
 ul.recent_examples li {
 	display: inline-block;
 	vertical-align: top;
 	zoom: 1;
 	*display:inline;
-	}
+}
 
 #connect {
 	text-align: center;
 	display: inline;
-	}
+}
 	
 img.icon {
 	display: inline;
 	padding: 0 2px;
 	margin: 0px;
 	border: 0;
-	}
+}
 	
 #footer {
 	margin-top: 50px;
-	}
+}
 	
 #copyright {
 	text-align: right;
 	font-size: 1.2em;
 	color: #A3A3A3;
-	}
+}
